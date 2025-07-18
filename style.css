@@ -1,0 +1,33 @@
+#logo {
+  width:350px
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
+}
+
+#header div {
+  width: 350px;
+  padding: 20px;
+}
+
+#madlib {
+  line-height:1.4em;
+  font-size:1.6rem;
+}
+
+.madlib-option {
+  font:inherit;
+}
+
+#explanations {
+  background-color: #f0f0f0;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  line-height:1.4em;
+  font-size:1.3rem;
+}
