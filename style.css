@@ -1,30 +1,27 @@
 body {
   background-color: #f7f7f0;
-  font-family: "Vollkorn", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 #logo {
-  width:300px
+  width:300px;
 }
 
 #header {
   display: flex;
   flex-wrap: wrap;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto 3rem auto;
 }
 
-#header div {
+#header div:first-child {
   width: 300px;
-  padding: 20px;
+  padding:20px
 }
 
 #madlib {
   line-height:1.4em;
-  font-size:1.4rem;
+  font-size:1.5rem;
+  width: 550px;
 }
 
 .madlib-option {
@@ -32,8 +29,12 @@ body {
 }
 
 #explanations {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto 3rem auto;
   line-height:1.4em;
-  font-size:1.2rem;
+  font-size:1.4rem;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
