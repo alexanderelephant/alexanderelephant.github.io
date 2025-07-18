@@ -1,3 +1,7 @@
+body {
+  background-color: #f7f7f0;
+}
+
 #logo {
   width:350px
 }
@@ -5,8 +9,7 @@
 #header {
   display: flex;
   flex-wrap: wrap;
-  background-color: #f0f0f0;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto 3rem auto;
 }
 
@@ -25,7 +28,6 @@
 }
 
 #explanations {
-  background-color: #f0f0f0;
   max-width: 700px;
   margin: 0 auto 3rem auto;
   line-height:1.4em;
