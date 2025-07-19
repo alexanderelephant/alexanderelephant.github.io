@@ -29,10 +29,10 @@ body {
 }
 
 #explanations {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto 0 auto;
   line-height:1.5;
-  font-size:2.2rem;
+  font-size:2.1rem;
   font-family: "Vollkorn", serif;
   font-optical-sizing: auto;
   font-weight: 400;
