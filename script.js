@@ -80,7 +80,7 @@ skills: [
 ],
 methods: [
   {id: curr_id++,
-  title: "using hands on to give an experience", description:""},
+  title: "using hands on to give an experience", description:"<p>The classical explanation for teaching the Alexander Technique is that the hands of the teacher are placed on the student in the form of gentle adjustment so that they may have an experience of what is desired as an outcome. This might be 'correct' organisation of the head, neck and back, a sense of newness, or a sense of lightness and greater ease. Having familiarity with this outcome, and some experience of how it has been achieved, the student is then more able to reproduce it for themselves."},
   {id: curr_id++,
   title: "using hands on to allow a unified self to emerge", description:""},
   {id: curr_id++,
@@ -100,7 +100,7 @@ methods: [
 ],
 mechanisms: [
   {id: curr_id++,
-  title: "re-organising patterns of postural tone", description:""},
+  title: "re-organising patterns of postural tone", description:"<p>This is the explanation for which there is most support in the scientific litterature around the Alexander Technique, not least because it is an operationalisable, measurable outcome that is cared about by researchers outside of the Alexander Technique community. Skilled Alexander Technique practitioners re-organise their postural tone better in adaptation to their surroundings. The Alexander Technique skills of inhibition, direction and sensory awareness are hypothesised as coming together to enhance the adaptivity of postural tone as an outcome."},
   {id: curr_id++,
   title: "activating the para-sympathetic nervous system", description:""},
   {id: curr_id++,
@@ -116,9 +116,7 @@ mechanisms: [
   {id: curr_id++,
   title: "allowing our natural organisation to take over", description:""},
   {id: curr_id++,
-  title: "interrupting the action sequences that underpin habits", description:""},
-  {id: curr_id++,
-  title: "our pre-frontal cortex having a less braced control", description:""},
+  title: "our pre-frontal cortex having a less braced control", description:"<p>Aside from the meaning of 'inhibition' specific to the Alexander Technique (in which non-doing is a key component), 'inhibition' also describes part of the role of the pre-frontal cortex, whereby it intervenes to suppress and regulate behaviour that is being planned by other brain regions. Part of this control may involve muscular bracing, particularly around the neck and shoulders. Such bracing is often particularly visible in pre-teens who are just learning how to regulate their behaviour according to social norms.<p> This kind of braced control continues throught to adulthood, even as the pre-frontal cortex develops further and seems more capable to inhibit without muscular bracing. The Alexander Technique may work by helping relearn ways of exerting this kind of non-braced inhibition."},
   {id: curr_id++,
   title: "co-regulation", description:""},
 ],
