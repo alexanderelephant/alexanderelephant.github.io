@@ -11,30 +11,34 @@
   <body>
     <!-- partial:index.partial.html -->
     <div id="header">
-      <div>
-        <img
-          src="http://gregdyke.github.io/images/alexander_elephant_trans.png"
-          id="logo"
-        />
-        <div>
-          The Alexander Technique is many things to many people. Pick among the
-          options to construct the explanation of the Alexander Technique that
-          makes sense to you.
-        </div>
-      </div>
-      <div id="madlib">
-        The Alexander Technique helps
-        <select id="people" class="madlib-option"></select
-        >. It addresses the root cause of
-        <select id="causes" class="madlib-option"></select
-        >. The skill of
-        <select id="skills" class="madlib-option"></select>
-        is taught by
-        <select id="methods" class="madlib-option"></select
-        >. This works through
-        <select id="mechanisms" class="madlib-option"></select
-        >.
-      </div>
+      <img
+        src="http://gregdyke.github.io/images/alexander_elephant_trans.png"
+        id="logo"
+      />
+      <ul>
+        <li><a href="#">Explanation Builder</a></li>
+        <li><a href="./explanations.html">All the explanations</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    </div>
+    <div id="explain">
+      The Alexander Technique is many things to many people. Pick among the
+      options to construct the explanation of the Alexander Technique that
+      makes sense to you.
+    </div>
+      
+    <div id="madlib">
+      The Alexander Technique helps
+      <select id="people" class="madlib-option"></select
+      >. It addresses the root cause of
+      <select id="causes" class="madlib-option"></select
+      >. The skill of
+      <select id="skills" class="madlib-option"></select>
+      is taught by
+      <select id="methods" class="madlib-option"></select
+      >. This works through
+      <select id="mechanisms" class="madlib-option"></select
+      >.
     </div>
     <div id="explanations">
       <div id="people_explanation"></div>

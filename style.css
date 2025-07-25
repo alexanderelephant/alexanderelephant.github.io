@@ -4,24 +4,38 @@ body {
 }
 
 #logo {
-  width:600px;
+  width:300px;
 }
 
 #header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size:2rem;
-  padding:2rem 5rem;
+  padding:1rem;
 }
 
-#header div:first-child {
-  width: 600px;
+#header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+#header ul li {
+  margin-left: 2rem;
+}
+
+#explain {
+  max-width: 800px;
+  margin: 2rem auto 2rem auto;
+  font-size:2rem;
 }
 
 #madlib {
   line-height:1.6;
   font-size:2.3rem;
   padding-block: 2rem;
+  max-width: 800px;
+  margin: 0 auto 0 auto;
 }
 
 .madlib-option {
