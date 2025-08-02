@@ -6,29 +6,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css?v=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">      
+      @layer base {
+        #explanations h1 {  
+          margin-top: 3rem;
+          margin-bottom: 2rem; 
+          font-size: var(--text-4xl);  
+          font-weight: bold;
+        }
+
+        #explanations h2 {  
+          margin-top: 3rem;
+          margin-bottom: 2rem;   
+          font-size: var(--text-3xl); 
+          font-weight: bold; 
+        }
+
+        #explanations h3 {   
+          margin-top: 3rem;
+          margin-bottom: 2rem;  
+          font-size: var(--text-2xl)!;  
+          font-weight: bold;
+        }
+
+        #explanations p {
+          margin-top:2rem;
+        }
+
+        #explanations ul {
+          list-style-type: disc;
+          margin-left:2rem;
+        }
+
+        #explanations a {
+          color: darkcyan;
+        }
+      }  
+    </style>
   </head>
   <body>
     <!-- partial:index.partial.html -->
-    <div id="header">
-      <img
-        src="http://gregdyke.github.io/images/alexander_elephant_trans.png"
-        id="logo"
-      />
-      <ul>
-        <li><a href="./index.html">Explanation Builder</a></li>
-        <li><a href="#">All the explanations</a></li>
-        <li><a href="./explanations.html">About</a></li>
+      <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <a href="//alexanderelephant.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="//gregdyke.github.io/images/alexander_elephant_trans.png" class="h-24" alt="Alexander Elephant Logo" />
+          <span class="sr-only">Alexander Elephant</span>
+    </a>
+  </div>
+  <div class="navbar-center hidden md:flex">
+    <ul class="menu menu-lg menu-horizontal px-1 gap-4">
+      <li>
+          <li>
+            <a href="./index.html">Explanation Builder</a>
+          </li>
+          <li>
+            <a href="#" class="menu-active" aria-current="page">All the Explanations</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <div class="dropdown dropdown-end">
+      <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box r-0 z-1 mt-3 w-52 p-2 shadow">
+        <li>
+            <a href="./index.html">Explanation Builder</a>
+          </li>
+          <li>
+            <a href="#" class="menu-active" aria-current="page">All the Explanations</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
       </ul>
     </div>
-    <div id="explanations">
+  </div>
+</div>
+    <div id="explanations" class="font-[Vollkorn] max-w-3xl m-auto text-2xl/9 px-3">
         <h2>Explanations</h2>
         <p>Below are all the pieces of explanations, organised by <ul>
-            <li><a href="#people_explanation">who the Alexander Technique can help</a></li>
-            <li><a href="#causes_explanation">why the Alexander Technique is needed</a></li>
-            <li><a href="#skills_explanation">what skills are learned as part of the Alexander Technique</a></li>
-            <li><a href="#methods_explanation">how the Alexander Technique is taught</a></li>
-            <li><a href="#mechanisms_explanation">why the Alexander Technique works</a></li>
+            <li><a href="#people_explanation">Who the Alexander Technique can help</a></li>
+            <li><a href="#causes_explanation">Why the Alexander Technique is needed</a></li>
+            <li><a href="#skills_explanation">What skills are learned as part of the Alexander Technique</a></li>
+            <li><a href="#methods_explanation">How the Alexander Technique is taught</a></li>
+            <li><a href="#mechanisms_explanation">Why the Alexander Technique works</a></li>
         </ul>
         </p>
       <div id="people_explanation"><h2>Who the Alexander Technique can help</h3>

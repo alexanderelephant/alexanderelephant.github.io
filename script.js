@@ -4,7 +4,7 @@ function setExplanation(type, id) {
   let explanation = explanations[type].filter(e => e.id == id)[0]
   let div = document.getElementById(type+"_explanation");
   div.innerHTML = `<h2>${topics[type]}: ${explanation["title"]}</h2>
-  ${explanation["description"]}`
+  ${explanation["description"] || "This description has not yet been written."}`
 }
 
 function addOption(type, explanation) {
