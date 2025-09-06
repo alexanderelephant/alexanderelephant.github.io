@@ -3,128 +3,210 @@
   <head>
     <meta charset="UTF-8" />
     <title>About Alexander Elephant</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">      
+    <style type="text/tailwindcss">
       @layer base {
-        #explanations h1 {  
+        #explanations h1 {
           margin-top: 3rem;
-          margin-bottom: 2rem; 
-          font-size: var(--text-4xl);  
+          margin-bottom: 2rem;
+          font-size: var(--text-4xl);
           font-weight: bold;
         }
 
-        #explanations h2 {  
+        #explanations h2 {
           margin-top: 3rem;
-          margin-bottom: 2rem;   
-          font-size: var(--text-3xl); 
-          font-weight: bold; 
+          margin-bottom: 2rem;
+          font-size: var(--text-3xl);
+          font-weight: bold;
         }
 
-        #explanations h3 {   
+        #explanations h3 {
           margin-top: 3rem;
-          margin-bottom: 2rem;  
-          font-size: var(--text-2xl)!;  
+          margin-bottom: 2rem;
+          font-size: var(--text-2xl) !;
           font-weight: bold;
         }
 
         #explanations p {
-          margin-top:2rem;
+          margin-top: 2rem;
         }
 
         #explanations ul {
           list-style-type: disc;
-          margin-left:2rem;
+          margin-left: 2rem;
         }
 
         #explanations a {
           color: darkcyan;
         }
-      }  
+      }
     </style>
   </head>
   <body>
     <!-- partial:index.partial.html -->
-          <div class="navbar bg-base-100 shadow-sm">
-  <div class="navbar-start">
-    <a href="//alexanderelephant.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="//gregdyke.github.io/images/alexander_elephant_trans.png" class="h-24" alt="Alexander Elephant Logo" />
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="navbar-start">
+        <a
+          href="//alexanderelephant.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="//gregdyke.github.io/images/alexander_elephant_trans.png"
+            class="h-24"
+            alt="Alexander Elephant Logo"
+          />
           <span class="sr-only">Alexander Elephant</span>
-    </a>
-  </div>
-  <div class="navbar-center hidden md:flex">
-    <ul class="menu menu-lg menu-horizontal px-1 gap-4">
-      <li>
-          <li>
-            <a href="./index.html">Explanation Builder</a>
-          </li>
-          <li>
-            <a href="./explanations.html">All the Explanations</a>
-          </li>
-          <li>
-            <a href="#" class="menu-active" aria-current="page">About</a>
-          </li>
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <div class="dropdown dropdown-end">
-      <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+        </a>
       </div>
-      <ul
-        tabindex="0"
-        class="menu menu-md dropdown-content bg-base-100 rounded-box r-0 z-1 mt-3 w-52 p-2 shadow">
-        <li>
+      <div class="navbar-center hidden md:flex">
+        <ul class="menu menu-lg menu-horizontal px-1 gap-4">
+          <li></li>
+          <li>
             <a href="./index.html">Explanation Builder</a>
           </li>
           <li>
-            <a href="./explanations.html">All the Explanations</a>
+            <a href="./index.html#_explanation">All the Explanations</a>
           </li>
           <li>
             <a href="#" class="menu-active" aria-current="page">About</a>
           </li>
-      </ul>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-md dropdown-content bg-base-100 rounded-box r-0 z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a href="./index.html">Explanation Builder</a>
+            </li>
+            <li>
+              <a href="./index.html_explanation">All the Explanations</a>
+            </li>
+            <li>
+              <a href="#" class="menu-active" aria-current="page">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-    <div id="explanations" class="font-[Vollkorn] max-w-3xl m-auto text-2xl/9 px-3">
+    <div
+      id="explanations"
+      class="font-[Vollkorn] max-w-3xl m-auto text-2xl/9 px-3"
+    >
       <h2>About Alexander Elephant</h2>
-      <p>Three blind men once met an elephant. The one touching its trunk perceived a snake, the one touching its tusk a spear, the one touching its leg a tree…
+      <p>
+        Three blind men once met an elephant. The one touching its trunk
+        perceived a snake, the one touching its tusk a spear, the one touching
+        its leg a tree…
+      </p>
 
-<p align="center" style="font-style:italic">And so these men of Indostan<br />  
-Disputed loud and long,<br />    
-Each in his own opinion<br />  
-Exceeding stiff and strong,<br />   
-Though each was partly in the right,<br />   
-And all were in the wrong!</p>
+      <p align="center" style="font-style: italic">
+        And so these men of Indostan<br />
+        Disputed loud and long,<br />
+        Each in his own opinion<br />
+        Exceeding stiff and strong,<br />
+        Though each was partly in the right,<br />
+        And all were in the wrong!
+      </p>
 
-<p>The Alexander Technique takes books to describe and years to study and embody. I think each perspective can be fully right on its own and want to hold space for all explanations simultaneously (even those I disagree with). 
+      <p>
+        The Alexander Technique takes books to describe and years to study and
+        embody. I think each perspective can be fully right on its own and want
+        to hold space for all explanations simultaneously (even those I disagree
+        with).
+      </p>
 
-<p>Within this website, I hope everyone can find words that at least bear some proximity to how they see and describe the Alexander Technique. I also hope you will enjoy reading a description near to your heart, written in my voice.
+      <p>
+        Within this website, I hope everyone can find words that at least bear
+        some proximity to how they see and describe the Alexander Technique. I
+        also hope you will enjoy reading a description near to your heart,
+        written in my voice.
+      </p>
 
-<p>Hi, I'm Greg and I'm training to become an Alexander Technique teacher. I'm happy to receive feedback on how this website can be improved (gregdyke@gmail.com or find me as @gregdyke on most social networks). Do bear in mind as you read through that there are certain trade offs inherent to the shape of the website: no single 15-paragraph description of the Alexander Technique will ever fully do it justice. 
+      <p>
+        Hi, I'm Greg and I'm training to become an Alexander Technique teacher.
+        I'm happy to receive feedback on how this website can be improved
+        (gregdyke@gmail.com or find me as @gregdyke on most social networks). Do
+        bear in mind as you read through that there are certain trade offs
+        inherent to the shape of the website: no single 15-paragraph description
+        of the Alexander Technique will ever fully do it justice.
+      </p>
 
-<h2>FAQ</h2>
+      <h2>FAQ</h2>
 
-<h3>Why can I only select one type of person/skill/teaching method? It's at least a combination of several things!</h3>
+      <h3>
+        Why can I only select one type of person/skill/teaching method? It's at
+        least a combination of several things!
+      </h3>
 
-<p>I wanted the website to be able to construct short, readable and shareable explanations. As each portion of explanation is made to stand alone, combining several of them together carries the risk of making it repetitive and disproportionately unreadable. But multiple selections *is* something I would like to add at a later date.
+      <p>
+        I wanted the website to be able to construct short, readable and
+        shareable explanations. As each portion of explanation is made to stand
+        alone, combining several of them together carries the risk of making it
+        repetitive and disproportionately unreadable. But multiple selections
+        *is* something I would like to add at a later date.
+      </p>
 
-<h3>You missed a perspective!</h3>
+      <h3>You missed a perspective!</h3>
 
-<p>That's quite possible. Or the explanation I would write for that perspective is already written but under a different title. It might also be a subset of a more generic concept or a combination of multiple concepts together into a complex perspective. Please let me know what you think I should add (and ideally find the closest existing description and tell me how the new one is similar but different). 
+      <p>
+        That's quite possible. Or the explanation I would write for that
+        perspective is already written but under a different title. It might
+        also be a subset of a more generic concept or a combination of multiple
+        concepts together into a complex perspective. Please let me know what
+        you think I should add (and ideally find the closest existing
+        description and tell me how the new one is similar but different).
+      </p>
 
-<h3>Why is there so much overlap between descriptions?</h3>
+      <h3>Why is there so much overlap between descriptions?</h3>
 
-<p>The beauty of writing small freestanding pieces of explanation is that they don't have to be a perfect disjointed set. The only constraint is that at some point two different  descriptions should have some difference. And writing takes time.
+      <p>
+        The beauty of writing small freestanding pieces of explanation is that
+        they don't have to be a perfect disjointed set. The only constraint is
+        that at some point two different descriptions should have some
+        difference. And writing takes time.
+      </p>
 
-<h3>Why do you have so much jargon?</h3>
+      <h3>Why do you have so much jargon?</h3>
 
-<p>I considered getting rid of the jargon. But then I realised that embracing overlap means that I can have my jargon and eat it. I can account for stimulus and response, the predictive nature of the brain and a dialogic perspective of humans sharing a world with other humans without having to get into the weeds of how they are different or similar or complementary. 
+      <p>
+        I considered getting rid of the jargon. But then I realised that
+        embracing overlap means that I can have my jargon and eat it. I can
+        account for stimulus and response, the predictive nature of the brain
+        and a dialogic perspective of humans sharing a world with other humans
+        without having to get into the weeds of how they are different or
+        similar or complementary.
+      </p>
     </div>
   </body>
 </html>
